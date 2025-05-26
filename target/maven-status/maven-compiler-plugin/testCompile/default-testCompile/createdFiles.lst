@@ -1,0 +1,3 @@
+com\l2\packaging\PackagingApplicationTests.class
+com\l2\packaging\integration\AbstractionContainerBaseTest.class
+com\l2\packaging\integration\PedidoControllerIntegrationTest.class

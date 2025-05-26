@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: packaging
+  datasource:
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+logging:
+  level:
+    root: info
+springdoc:
+  paths-to-match:
+  - /api/**/v1/**
+  swagger-ui:
+    use-root-path: true

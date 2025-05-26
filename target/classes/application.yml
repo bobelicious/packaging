@@ -1,0 +1,20 @@
+server:
+  port: 80
+spring:
+  application:
+    name: packaging
+  datasource:
+    url: jdbc:postgresql://localhost:5432/packaging
+    username: postgres
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: update
+logging:
+  level:
+    root: info
+springdoc:
+  paths-to-match:
+  - /api/**/v1/**
+  swagger-ui:
+    use-root-path: true

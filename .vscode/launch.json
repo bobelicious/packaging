@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PackagingApplication<packaging>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.l2.packaging.PackagingApplication",
+            "projectName": "packaging",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
